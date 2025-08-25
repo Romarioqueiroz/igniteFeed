@@ -10,7 +10,7 @@ const Post = () => {
             alt=""
           />
           <div className={styles.authorInfo}>
-            <strong>Diego Fernandes</strong>
+            <strong>Romario Queiroz</strong>
             <span>Web developer</span>
           </div>
         </div>
@@ -30,7 +30,8 @@ const Post = () => {
         </p>
 
         <p>
-          <a href=""> #Rocketseat #novoprojeto </a>
+          <a href=""> #Rocketseat</a> {" "}
+          <a href=""> #novoprojeto </a>
         </p>
       </div>
     </article>
