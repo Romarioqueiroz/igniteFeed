@@ -8,7 +8,7 @@ const posts = [
   {
     id: 1,
     author: {
-      AvatarUrl:
+      avatarUrl:
         "https://images.ctfassets.net/3mv54pzvptwz/7Jj4ryLGJazS8pDUlCK2Vg/07213977dcbbc3d402bac1e1a27c86af/54331642772_05fa9ffe6b_o_dentro.jpg",
       name: "Neymar jr",
       role: "Jogador",
@@ -31,7 +31,7 @@ const posts = [
   {
     id: 2,
     author: {
-      AvatarUrl:
+      avatarUrl:
         "https://images.ctfassets.net/3mv54pzvptwz/7Jj4ryLGJazS8pDUlCK2Vg/07213977dcbbc3d402bac1e1a27c86af/54331642772_05fa9ffe6b_o_dentro.jpg",
       name: "Mayk Brito",
       role: "Educator @Rocketseat",
