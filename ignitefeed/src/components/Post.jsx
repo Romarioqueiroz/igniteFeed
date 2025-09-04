@@ -26,6 +26,10 @@ const Post = ({ author, publishedAt, content }) => {
   function handleNewCommentChange() {
     setNewCommentText(event.target.value);
   }
+  function deleteComment(comment) {
+    console.log(`deletar comentario: ${comment}`)
+
+  }
 
   const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
     locale: ptBR,
@@ -79,7 +83,7 @@ const Post = ({ author, publishedAt, content }) => {
       </form>
       <div className={styles.commentList}>
         {comments.map((comment) => {
-          return <Comment key={comment} content={comment} />;
+          return <Comment key={comment} content={comment} onDeleteComment= {deleteComment} />;
         })}
       </div>
     </article>
